@@ -5,11 +5,12 @@
 }
 
 .header {
-    width: 100%;
+    max-width: 1170px;
     border-bottom: 1px solid var(--color-grey);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px auto;
 }
 
 
@@ -21,6 +22,11 @@
 .header__nav__list__item {
     margin: 0 37px;
     position: relative;
+    
+}
+
+.header__nav__list__item a {
+    text-decoration: none;
 }
 
 .header__nav__list__item::after {

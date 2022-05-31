@@ -1,27 +1,6 @@
 :root {
+--color-black:#2D3033;
 --color-grey: #BABBC5;
 --color-white: #FFFFFF;
 --color-red: #FF4343;
 }
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.a {
-    text-decoration: none;
-}
-
-body {
-    font-family: 'Raleway', sans-serif;
-}
-
-.container {
-    max-width: 1230px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
-
