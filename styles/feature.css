@@ -31,7 +31,7 @@
     margin: 0 0 10px 0;
 }
 
-.title {
+.feature .title {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 900;
@@ -41,7 +41,7 @@
     color: var(--color-black);
 }
 
-.description {
+.feature .description {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
