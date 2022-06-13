@@ -18,3 +18,97 @@ body {
     padding: 0 15px;
 }
 
+.h5 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.h3 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+}
+
+/* .h3_white, .h5_white{
+    color: white;
+} */
+
+.white {
+    color: white;
+}
+
+.gray {
+    color: #808080
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+footer {
+    height: 341px;
+    background-color: #353C65;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contacts {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-location, .contact-social,  .contact-about {
+    width: 370px;
+    margin-top: 70px;
+}
+
+.contact-location, .contact-social, .contact-about {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.contact-location .contact-location__details, .contact-about .contact-about__details{
+    margin-top: 30px;
+}
+
+.contact-social .contact-social__networks {
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+
+.copyright {
+    height: 90px;
+    background-color: #2C3154;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h3 {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 21px;
+    text-transform: capitalize;
+}
+
+footer h5 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: capitalize;
+}
